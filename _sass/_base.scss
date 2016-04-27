@@ -1,0 +1,33 @@
+.navbar {
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+  border: 0;
+  top: 0;
+}
+@media (max-width: $screen-sm) {
+  .navbar {
+    background-color: $brand-primary;
+  }
+}
+@media (min-width: $screen-sm) {
+  .navbar {
+    position: absolute;
+  }
+  .navbar-nav > li {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    & > a {
+      padding-top: 3px;
+      padding-bottom: 3px;
+      border-radius: 3px;
+    }
+  }
+}
+
+footer {
+  background: url(../images/gun_metal.png);
+  color: white;
+  padding: 20px 0;
+}

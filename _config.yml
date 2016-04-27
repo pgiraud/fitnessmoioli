@@ -1,0 +1,8 @@
+# Site settings
+title: Fitness Moioli
+description: > # this means to ignore newlines until "baseurl:"
+  Cours de Fitness
+baseurl: "/fitnessmoioli" # the subpath of your site, e.g. /blog/
+
+# Build settings
+markdown: kramdown
