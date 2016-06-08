@@ -1,9 +1,17 @@
+body {
+}
 .navbar {
   position: fixed;
   width: 100%;
   z-index: 2;
   border: 0;
   top: 0;
+  background-color: $brand-bg;
+  text-transform: uppercase;
+  border-bottom: 3px solid $brand-primary;
+}
+.jumbotron {
+  background-color: $brand-bg;
 }
 @media (max-width: $screen-sm) {
   .navbar {
@@ -30,4 +38,5 @@ footer {
   background: url(../images/gun_metal.png);
   color: white;
   padding: 20px 0;
+  border-top: 3px solid $brand-primary;
 }
