@@ -1,7 +1,11 @@
-$font-family-sans-serif: "Open Sans", Arial, sans-serif;
-$font-size-base: 16px;
+$font-family-sans-serif: "Roboto Condensed", Arial, sans-serif;
+$font-size-base: 18px;
 
 
 $navbar-default-bg: transparent;
 $brand-primary: #6cc644;
+$brand-primary: #2EFE2E;
 $brand-bg: #131313;
+$navbar-default-link-color: white;
+$navbar-default-link-active-color: $navbar-default-link-color;
+$navbar-default-link-hover-bg: $brand-primary;

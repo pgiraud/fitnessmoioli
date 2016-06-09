@@ -1,5 +1,17 @@
 body {
+  font-style: italic;
 }
+
+h1, h2, h3 {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.page-header {
+  border-bottom-width: 3px;
+  border-color: $brand-primary;
+}
+
 .navbar {
   position: fixed;
   width: 100%;
@@ -10,8 +22,34 @@ body {
   text-transform: uppercase;
   border-bottom: 3px solid $brand-primary;
 }
-.jumbotron {
+.jumbotron,
+.intro {
   background-color: $brand-bg;
+  color: #ffffff;
+}
+.jumbotron {
+  position: relative;
+  margin-bottom: 0;
+  -webkit-box-shadow: 0px 3px 2px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 3px 2px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 3px 2px 0px rgba(0, 0, 0, 0.75);
+  background-color: #171717;
+}
+.intro {
+  font-size: 1.2em;
+  padding-bottom: 38px;
+  padding-top: 38px;
+  background-color: #0f0f0f;
+}
+.activities {
+  background: url('../images/arrow-down.png') #ffffff no-repeat;
+  background-position: center top;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.navbar-default .navbar-nav > li > a {
+  transition: all 0.5s;
 }
 @media (max-width: $screen-sm) {
   .navbar {
