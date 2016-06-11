@@ -42,6 +42,15 @@ section: home
               Step
             </h1>
           </div>
+          <p>C'est la discipline reine du fitness et de l'aérobic.</p>
+          <p>À la fois cardio et amusant.</p>
+          <p>Des chorégraphies pour tous les niveaux pour brûler un max de
+          calories et retrouver la pêche.</p>
+          <p>&nbsp;</p>
+          <div class="text-center">
+            <a class="btn btn-primary col-sm-6 col-sm-offset-3 col-xs-12"
+               href="{{site.baseurl}}/pages/planning.html">Découvrir</a>
+          </div>
         </div>
         <div class="col-sm-6">
           <div class="page-header">
@@ -49,6 +58,14 @@ section: home
               Aérodance
               <small>LIA</small>
             </h1>
+          </div>
+          <p>Low Impact Aérobic.</p>
+          <p>Incontournable également.</p>
+          <p>Une discipline idéale pour faire bouger tout son corps en musique et retrouver du tonus sans se faire mal.</p>
+          <p>&nbsp;</p>
+          <div class="text-center">
+            <a class="btn btn-primary col-sm-6 col-sm-offset-3 col-xs-12"
+               href="{{site.baseurl}}/pages/planning.html">Découvrir</a>
           </div>
         </div>
       </div>
