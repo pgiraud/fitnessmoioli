@@ -5,6 +5,7 @@ section: home
 
 <main>
   <!-- Main jumbotron for a primary marketing message or call to action -->
+  {% comment %}
   <div class="jumbotron">
     <div class="container">
       <div class="row">
@@ -13,13 +14,14 @@ section: home
         </div>
       </div>
     </div>
-    <div class="gradient"></div>
   </div>
+  {% endcomment %}
 
   <section class="intro">
     <div class="container">
       <div class="row">
         <div class="col-sm-4">
+          <img src="{{ site.baseurl}}/images/logo.png" class="img-responsive"/>
         </div>
         <div class="col-sm-8">
           <h2 class="text-primary">

@@ -4,7 +4,7 @@ section: home
 ---
 
 <main>
-  <section class="activities">
+  <section class="">
     <div class="container">
       <div class="row">
         <div class="col-sm-6">
