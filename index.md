@@ -1,6 +1,15 @@
 ---
 layout: home
 section: home
+
+lun_2_1: STEP Inter.
+mar_3_1: STEP Inter.
+mar_4_2: LIA Deb.
+mer_3_2: LIA Inter.
+mer_4_1: STEP Deb.
+jeu_3_2: LIA Inter.
+ven_3_2: LIA Deb.
+sam_1_1: STEP Deb.
 ---
 
 <main>
@@ -35,7 +44,7 @@ section: home
     </div>
   </section>
 
-  <section class="activities">
+  <section id="activites" class="activities">
     <div class="container">
       <div class="row">
         <div class="col-sm-6">
@@ -44,15 +53,18 @@ section: home
               Step
             </h1>
           </div>
+          <p>
+          Programme d'entrainement faisant appel principalement
+          aux qualités d'endurance et de coordination, basé sur des
+          déplacements en pas centrés sur un marche-pied appelé STEP<sup>&reg;</sup>.
+          </p>
           <p>C'est la discipline reine du fitness et de l'aérobic.</p>
           <p>À la fois cardio et amusant.</p>
           <p>Des chorégraphies pour tous les niveaux pour brûler un max de
           calories et retrouver la pêche.</p>
-          <p>&nbsp;</p>
-          <div class="text-center">
-            <a class="btn btn-primary col-sm-6 col-sm-offset-3 col-xs-12"
-               href="{{site.baseurl}}/pages/planning.html">Découvrir</a>
-          </div>
+          <p class="text-center">
+          <img src="{{site.baseurl}}/images/Step.png" class="img-responsive">
+          </p>
         </div>
         <div class="col-sm-6">
           <div class="page-header">
@@ -62,12 +74,65 @@ section: home
             </h1>
           </div>
           <p>Low Impact Aérobic.</p>
+          <p>Activité chorégraphiée composée de déplacement marchés,
+          accompagnés de mouvements de bras, sans sauts donc sans impacts mais
+          qui reste malgré tout efficace sur le plan cardio-respiratoire.</p>
           <p>Incontournable également.</p>
           <p>Une discipline idéale pour faire bouger tout son corps en musique et retrouver du tonus sans se faire mal.</p>
-          <p>&nbsp;</p>
-          <div class="text-center">
-            <a class="btn btn-primary col-sm-6 col-sm-offset-3 col-xs-12"
-               href="{{site.baseurl}}/pages/planning.html">Découvrir</a>
+          <p class="text-center">
+          <img src="{{site.baseurl}}/images/LIA.png" class="img-responsive">
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="planning" class="planning">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="page-header">
+            <h1>Planning</h1>
+          </div>
+          {% include planning.html %}
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="tarifs">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="page-header">
+            <h1>
+              Tarifs
+            </h1>
+          </div>
+          <div class="row">
+            <div class="col-sm-8">
+              <h3>
+                180 €
+                <small>
+                La saison
+                (octobre à juin)
+                </small>
+              </h3>
+              <p>
+                Un tarif unique qui vous donne accès à tous les cours.
+              </p>
+            </div>
+            <div class="col-sm-4 well">
+              <h2>
+                Offre découverte
+              </h2>
+              <p>
+                En septembre
+              </p>
+              <p>
+                Venez tester les cours.
+              </p>
+            </div>
           </div>
         </div>
       </div>

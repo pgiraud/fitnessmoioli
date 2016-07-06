@@ -53,6 +53,15 @@ h1, h2, h3 {
   padding-top: 30px;
   padding-bottom: 30px;
 }
+.planning {
+  background-color: #353535;
+  color: white;
+}
+
+#tarifs .well {
+  background-color: #353535;
+  color: white;
+}
 
 .navbar-default .navbar-nav > li > a {
   transition: all 0.5s;
@@ -79,4 +88,41 @@ footer {
 
 .btn-primary {
   text-transform: uppercase;
+}
+
+.table>thead>tr>th,
+.table>tbody>tr>td, .table>tbody>tr>th {
+  text-align: center;
+  vertical-align: middle !important;
+}
+.table table tr>td  {
+  height: 30px;
+  white-space: nowrap;
+}
+
+.table table {
+  border-spacing: 2px;
+  border-collapse: separate;
+  width: 100%;
+}
+
+.table table td {
+  border: 1px solid $table-border-color;
+}
+
+$step: rgba(255, 253, 72, 0.5);
+$lia: rgba(255, 113, 110, 0.5);
+
+tr.step>td:empty,
+tr.lia>td:empty {
+  display: none;
+}
+tr.step>td,
+tr>td.step {
+  background-color: $step;
+}
+
+tr.lia>td,
+tr>td.lia {
+  background-color: $lia;
 }
