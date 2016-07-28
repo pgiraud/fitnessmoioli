@@ -34,10 +34,12 @@ sam_1_1: STEP Deb.
         </div>
         <div class="col-sm-8">
           <h2 class="text-primary">
-            Votre centre de fitness à la Motte Servolex.
+            Votre centre de fitness à la Motte Servolex
           </h2>
           <br>
-          Gardez la forme toute l'année.
+          <div class="subtitle text-center fadeInLeft animated">
+            &ldquo; Gardez la forme toute l'année &bdquo;
+          </div>
         </div>
       </div>
     </div>
@@ -127,7 +129,7 @@ sam_1_1: STEP Deb.
               </p>
             </div>
             <div class="col-sm-4 well text-center">
-              <h2>
+              <h2 id="decouverte">
                 Offre découverte
               </h2>
               <p>

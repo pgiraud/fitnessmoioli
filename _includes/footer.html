@@ -45,6 +45,23 @@
   var shiftWindow = function() { scrollBy(0, -70) };
   if (location.hash) shiftWindow();
   window.addEventListener("hashchange", shiftWindow);
+
+  function isInViewport(element) {
+    var rect = element.getBoundingClientRect();
+    var html = document.documentElement;
+    return (
+      rect.top >= 0 &&
+      rect.left >= 0 &&
+      rect.bottom <= (window.innerHeight || html.clientHeight) &&
+      rect.right <= (window.innerWidth || html.clientWidth)
+    )
+  }
+  window.addEventListener("scroll", function() {
+    var element = document.getElementById('decouverte');
+    var visible = isInViewport(element);
+    element.classList.toggle('animated', visible);
+    element.classList.toggle('fadeInLeft', visible);
+  });
 </script>
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
