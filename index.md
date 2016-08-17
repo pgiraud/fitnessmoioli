@@ -136,6 +136,9 @@ sam_1_1: STEP Deb.
                 En septembre, venez tester les cours.
               </p>
               <p class="text-primary">GRATUITEMENT</p>
+              <p>
+                <a class="btn btn-primary" href="https://goo.gl/forms/gj4Smi4gvi99e25L2" target="_blank">Inscrivez-vous</a>
+              </p>
             </div>
           </div>
         </div>
