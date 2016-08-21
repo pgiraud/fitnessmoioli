@@ -139,6 +139,9 @@ sam_1_1: STEP Deb.
               <p>
                 <a class="btn btn-primary" href="https://goo.gl/forms/gj4Smi4gvi99e25L2" target="_blank">Inscrivez-vous</a>
               </p>
+              <p>
+                Début des cours : <br><b>Lundi 5 septembre</b>
+              </p>
             </div>
           </div>
         </div>
