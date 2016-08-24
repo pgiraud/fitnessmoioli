@@ -98,6 +98,8 @@ sam_1_1: STEP Deb.
           {% include planning.html %}
           <caption>Durée des cours 45 minutes</caption>
           <br>
+          <caption>Début des cours : lundi 5 septembre</caption>
+          <br>
           <br>
         </div>
       </div>
