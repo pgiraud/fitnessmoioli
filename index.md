@@ -96,9 +96,11 @@ sam_1_1: STEP Deb.
             <h1>Planning</h1>
           </div>
           {% include planning.html %}
-          <caption>Durée des cours 45 minutes</caption>
+          <caption>Lieu des cours : <b>"Annexe" 401 rue des Champagnes - La Motte Servolex</b></caption>
           <br>
-          <caption>Début des cours : lundi 5 septembre</caption>
+          <caption>Durée des cours : <b>45 minutes</b></caption>
+          <br>
+          <caption>Début des cours : <b>lundi 5 septembre</b></caption>
           <br>
           <br>
         </div>
