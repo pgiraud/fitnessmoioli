@@ -38,7 +38,10 @@ sam_1_1: STEP Deb.
           </h2>
           <br>
           <div class="subtitle text-center fadeInLeft animated">
-            &ldquo; Gardez la forme toute l'année &bdquo;
+            &ldquo; Gardez la forme toute l'année
+          </div>
+          <div class="subtitle text-center fadeInLeft animated2">
+            dans une structure et une ambiance familiale. &bdquo;
           </div>
         </div>
       </div>

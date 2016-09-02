@@ -148,9 +148,13 @@ tr>td.lia {
   font-size: $font-size-base * 2;
 }
 
-.animated {
+.animated,
+.animated2 {
     animation-duration: 1s;
     animation-fill-mode: both;
+}
+.animated2 {
+    animation-delay: 1s;
 }
 @keyframes fadeInLeft {
     0% {
