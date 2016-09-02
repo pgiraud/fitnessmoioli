@@ -132,7 +132,7 @@ sam_1_1: STEP Deb.
                 </small>
               </h3>
               <p>
-                Un tarif unique qui vous donne accès à tous les cours.
+                Un tarif <b>unique</b> et <b>abordable</b> qui vous donne accès à tous les cours.
               </p>
             </div>
             <div class="col-sm-4 well text-center">
