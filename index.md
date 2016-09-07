@@ -3,8 +3,8 @@ layout: home
 section: home
 
 lun_2_1: STEP Inter.
+lun_3_1: STEP Deb.
 mar_3_2: LIA Inter.
-mar_4_1: STEP Deb.
 mer_3_1: STEP Inter.
 mer_4_2: LIA Deb.
 jeu_3_2: LIA Inter.
