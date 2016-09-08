@@ -2,14 +2,14 @@
 layout: home
 section: home
 
-lun_2_1: STEP Inter.
-lun_3_1: STEP Deb.
-mar_3_2: LIA Inter.
-mer_3_1: STEP Inter.
-mer_4_2: LIA Deb.
-jeu_3_2: LIA Inter.
-ven_3_2: LIA Deb.
-sam_1_1: STEP Deb.
+lun_2_1: STEP
+lun_3_1: STEP
+mar_3_2: LIA
+mer_3_1: STEP
+mer_4_2: LIA
+jeu_3_2: LIA
+ven_3_2: LIA
+sam_1_1: STEP
 ---
 
 <main>

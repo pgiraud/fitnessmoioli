@@ -126,6 +126,10 @@ footer {
   border: 1px solid $table-border-color;
 }
 
+.table th {
+    width: 10%;
+}
+
 $step: rgba(255, 253, 72, 0.5);
 $lia: rgba(255, 113, 110, 0.5);
 
