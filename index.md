@@ -2,14 +2,6 @@
 layout: home
 section: home
 
-lun_2_1: STEP
-lun_3_1: STEP
-mar_3_2: LIA
-mer_3_1: STEP
-mer_4_2: LIA
-jeu_3_2: LIA
-ven_3_2: LIA
-sam_1_1: STEP
 ---
 
 <main>
@@ -69,6 +61,19 @@ sam_1_1: STEP
           <p class="text-center">
           <img src="{{site.baseurl}}/images/Step.jpg" class="img-responsive">
           </p>
+
+          <ul class="text-center well list-unstyled">
+            <li>
+              <strong>
+              Lundi à 18h
+              </strong>
+            </li>
+            <li>
+              <strong>
+              Jeudi à 18h
+              </strong>
+            </li>
+          </ul>
         </div>
         <div class="col-sm-6">
           <div class="page-header">
@@ -86,19 +91,22 @@ sam_1_1: STEP
           <p class="text-center">
           <img src="{{site.baseurl}}/images/Lia.jpg" class="img-responsive">
           </p>
+          <ul class="text-center well list-unstyled">
+            <li>
+              <strong>
+              Mardi à 18h15
+              </strong>
+            </li>
+            <li>
+              <strong>
+              Mercredi à 18h15
+              </strong>
+            </li>
+          </ul>
         </div>
       </div>
-    </div>
-  </section>
-
-  <section id="planning" class="planning">
-    <div class="container">
       <div class="row">
         <div class="col-sm-12">
-          <div class="page-header">
-            <h1>Planning</h1>
-          </div>
-          {% include planning.html %}
           <caption>Lieu des cours : <b>"Annexe" 401 rue des Champagnes - La Motte Servolex</b></caption>
           <br>
           <caption>Durée des cours : <b>45 minutes</b></caption>
