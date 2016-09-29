@@ -142,6 +142,9 @@ section: home
               <p>
                 Un tarif <b>unique</b> et <b>abordable</b> qui vous donne accès à tous les cours.
               </p>
+              <p>
+                Possibilité de commencer à tout moment et de régler au prorata.
+              </p>
             </div>
             <div class="col-sm-4 well text-center">
               <h2 id="decouverte">
