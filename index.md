@@ -147,18 +147,15 @@ section: home
               </p>
             </div>
             <div class="col-sm-4 well text-center">
+              <h4>Rentrée de Janvier</h4>
               <h2 id="decouverte">
-                Offre découverte
+                Offre 6 Mois
+              </h2>
+              <h2>
+                130 €
               </h2>
               <p>
-                En septembre, venez tester les cours.
-              </p>
-              <p class="text-primary">GRATUITEMENT</p>
-              <p>
                 <a class="btn btn-primary" href="https://goo.gl/forms/gj4Smi4gvi99e25L2" target="_blank">Inscrivez-vous</a>
-              </p>
-              <p>
-                Début des cours : <br><b>Lundi 5 septembre</b>
               </p>
             </div>
           </div>
